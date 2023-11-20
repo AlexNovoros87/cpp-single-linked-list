@@ -473,7 +473,6 @@ template<typename Type>
 template<typename It>
 void SingleLinkedList<Type>::PushByIterators(It b, It e) {
 
-    //элементы Pushfront в обратном направлении
     SingleLinkedList<Type> tmp;
     auto moveable = tmp.before_begin();
     auto b_ = b;
